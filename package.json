@@ -1,0 +1,27 @@
+{
+  "name": "crudappnodejsexpressjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.ts",
+  "scripts": {
+    "start": "nodemon src/app.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/config": "^0.0.40",
+    "@types/express": "^4.17.13",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^16.11.9",
+    "config": "^3.3.6",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.1",
+    "mongoose": "^5.13.8",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "@types/ejs": "^3.1.0",
+    "@types/express-ejs-layouts": "^2.5.0"
+  }
+}
