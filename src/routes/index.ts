@@ -1,5 +1,5 @@
 import express from 'express';
-import controller from '../controller/userController'
+import controller from '../controller/userController';
 
 const addUser:express.Router = express.Router(); 
 
@@ -23,7 +23,7 @@ addUser.get('/add-user',controller.addUserPage);
 addUser.get('/update-user',controller.updateUserPage);
 
 //API 
- addUser.post('/api/users',controller.createUser);
+addUser.post('/api/users',controller.createUser);
  addUser.get('/api/users',controller.findUser);
  addUser.put('/api/users/:id',controller.updateUser);
  addUser.delete('/api/users/:id',controller.deleteUser);

@@ -168,7 +168,9 @@ table{
 }
 
 #update-user .form-group input[type="text"],
-#add-user .form-group input[type="text"]{
+#add-user .form-group input[type="text"],
+#add-user .form-group input[type="password"],
+#update-user .form-group input[type="password"]{
     width: 100%;
     padding: .6em 1em;
     margin: .5em 0;

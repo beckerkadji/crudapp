@@ -9,19 +9,29 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/bcryptjs": "^2.4.2",
     "@types/config": "^0.0.40",
     "@types/express": "^4.17.13",
+    "@types/express-validator": "^3.0.0",
+    "@types/jquery": "^3.5.9",
     "@types/mongoose": "^5.11.97",
     "@types/node": "^16.11.9",
+    "axios": "^0.24.0",
     "config": "^3.3.6",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
     "express-ejs-layouts": "^2.5.1",
-    "mongoose": "^5.13.8",
+    "express-validator": "^6.13.0",
+    "mongoose": "^6.0.13",
+    "mongoose-delete": "^0.5.4",
+    "mongoose-unique-validator": "^3.0.0",
     "nodemon": "^2.0.15"
   },
   "devDependencies": {
     "@types/ejs": "^3.1.0",
-    "@types/express-ejs-layouts": "^2.5.0"
+    "@types/express-ejs-layouts": "^2.5.0",
+    "@types/mongoose-delete": "^0.5.7",
+    "@types/mongoose-unique-validator": "^1.0.5"
   }
 }

@@ -1,14 +1,14 @@
     <!-- form handling -->
-    <form  method="POST" id='add-user'>
+    <form  method="POST" id='add-user' action="api/users">
         <div class="new-user">
             <div class="form-group">
                 <label for="name" class="text-light">Name</label>
-                <input type="hidden" name="id" value="">
+                <input type="hidden" name="id" required value="">
                 <input type="text" name="name" value="" placeholder="Becker Kadji">
             </div>
             <div class="form-group">
                 <label for="Email" class="text-light">Email</label>
-                <input type="text" name="email" value="" placeholder="example@gmail.com">
+                <input type="text" name="email" value="" required placeholder="example@gmail.com">
             </div>
 
             <div class="form-group">
@@ -18,7 +18,7 @@
                     <label for="radio-2" class="radio-lable">Male</label>
                 </div>
                 <div class="radio inline">
-                    <input type="radio" id ="radio-3"name="gender" value="Female" >
+                    <input type="radio" id ="radio-3"name="gender"  value="Female" >
                     <label for="radio-3" class="radio-lable">Female</label>
                 </div>
             </div>
@@ -36,7 +36,7 @@
             </div>
 
             <div class="form-group">
-                <button type="submit" class="btn text-dark update">Save</button>
+                <input type="submit"  value="Save" class="btn text-dark update" />
             </div>
         </div>
     </form>
