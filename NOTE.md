@@ -6,9 +6,15 @@ npx tsc --init                                      // for typescript configurat
 package:
 npm install @types/node express @types/express       
 npm install nodemon                                //to restart the server automatically
-npm install @types/config
-npm i config
+
 npm install mongoose @types/mongoose                //for using mongodb
 
-npm install ejs  express-ejs-layouts
-npm install --save-dev @types/ejs @types/express-ejs-layouts    //for view engine in typescript
+
+npm install --save-dev @types/ejs                     //for view engine in typescript
+npm install axios @types/axios                          //for render view
+npm install dotenv @types/dotenv                         //for environment variable
+npm install @types/jquery
+npm install swagger-ui-express --save
+npm install @types/swagger-ui-express --save
+
+
